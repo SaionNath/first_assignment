@@ -348,3 +348,47 @@ body {
 .contact-form button:hover {
   background-color: #4a4cd6;
 }
+
+/* Footer */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 60px 20px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  color: #4f46e5; 
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #7c7c7c;
+  margin-bottom: 40px;
+  line-height: 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #7c7c7c;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #4f46e5;
+}
