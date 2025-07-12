@@ -274,3 +274,77 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
  
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8ff; /* Light background as in the image */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.left h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.right {
+  width: 400px;
+  background-color: transparent; /* Ensure no white background */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  background-color: transparent; /* No background on the form */
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background-color: #fff; /* Keep input fields white */
+  resize: none;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  width: 100%; /* Optional: make button full width */
+  padding: 12px;
+  font-size: 16px;
+  background-color: #5d5fef;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4a4cd6;
+}
