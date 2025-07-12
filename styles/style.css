@@ -1,0 +1,397 @@
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+}
+
+/* Reusable Button */
+.btn {
+  padding: 10px 20px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #3730a3;
+}
+
+/* Hero Header */
+.hero-header {
+  background-image: url('../Assets/Hero-bg.png'); 
+  height: 698px;
+  background-position: center;
+  padding: 60px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar inside Hero */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 34px;
+  color: #3730a3;
+}
+
+.hero-content h1 {
+  font-size: 65px;
+  color: #252432;
+  font-weight: bold;
+  margin: 188px 265px 0px 265px;
+  justify-content: center;
+}
+
+/* Action Section */
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 20px 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+  gap: 170px;
+  flex-wrap: wrap;
+}
+
+.action-left {
+  /* flex: 1; */
+  min-width: 280px;
+}
+
+.action-left h2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.action-left p {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.action-left .btn {
+  background: #4f46e5;
+  font-weight: bold;
+  padding: 12px 36px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.action-right {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.action img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Stats */
+.productive {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.productive h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 40px;
+}
+
+.stats {
+  background: rgba(99, 102, 241, 0.08);
+  padding: 50px 30px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 50px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03); 
+}
+
+.stat {
+  flex: 1;
+  min-width: 160px;
+}
+
+.stat h3 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 8px;
+}
+
+.stat p {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+/* Review Section */
+.review {
+  text-align: center;
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.review h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 40px;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: #f9f9f9;
+  padding: 24px;
+  width: 280px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+  text-align: left;
+}
+
+.review-card p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.review-text{
+  font-size: 14px;
+  color: #333;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.review-meta strong {
+  font-size: 1rem;
+  color: #111;
+}
+
+.review-date {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+/* Focus  */
+.focus {
+  background: #f5f5f5;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.focus-container {
+  background: white;
+  padding: 60px 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+.focus-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.focus-container p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+.focus-container .btn {
+  margin-bottom: 32px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.focus-container .btn:hover {
+  background: #3730a3;
+}
+
+.focus-container img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Contact Section */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8ff; /* Light background as in the image */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.left h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.right {
+  width: 400px;
+  background-color: transparent; /* Ensure no white background */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  background-color: transparent; /* No background on the form */
+}
+
+.contact-form label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background-color: #fff; /* Keep input fields white */
+  resize: none;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button {
+  width: 100%; /* Optional: make button full width */
+  padding: 12px;
+  font-size: 16px;
+  background-color: #5d5fef;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4a4cd6;
+}
+
+/* Footer */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 60px 20px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  color: #4f46e5; 
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #7c7c7c;
+  margin-bottom: 40px;
+  line-height: 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #7c7c7c;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #4f46e5;
+}
